@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Login Page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">;
+    </head>
+    <body>
+        <div class="formcontainer">
+        <form action="action_page.php" method="post">
+        <div class="imgcontainer">
+          <h1>Registration Form</h1>
+          <img src="img_avatar2.png" alt="Avatar" class="avatar">
+        </div>
+       
+        <div class="container">
+          <label for="fname"><b>First Name</b></label>
+          <input type="text" placeholder="First name" name="firstName" required>
+      
+          <label for="lname"><b>Last Name</b></label>
+          <input type="text" placeholder="Last name" name="lastName" required>
+          <div>
+            <label for="gender"><b>Gender</b></label>
+            <div>
+              <label for="male" class="radio-inline"><input type="radio" name="gender" value="m" id="male">Male</label>
+              <label for="female" class="radio-inline"><input type="radio" name="gender" value="f" id="female">Female</label>
+              <label for="others" class="radio-inline"><input type="radio" name="gender" value="o" id="others">Others</label>
+              
+            </div>
+          </div>
+          
+          
+
+          <label for="id"><b>Email</b></label>
+          <input type="text" placeholder="Email-id" name="email" required>
+          
+          <label for="id"><b>Password</b></label>
+          <input type="password" placeholder="Password" name="password" required>
+          
+          <label for="id"><b>Phone Number</b></label>
+          <input type="text" placeholder="phone number" name="number" required>
+          
+
+          
+          
+      
+          <button type="submit">Login</button>
+          <label>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+          </label>
+        </div>
+      
+        <div class="container" style="background-color:#f1f1f1">
+          <button type="button" class="cancelbtn">Cancel</button>
+          <span class="psw">Forgot <a href="#">password?</a></span>
+        </div>
+      </form>
+      </div>
+    </body>
+</html>
